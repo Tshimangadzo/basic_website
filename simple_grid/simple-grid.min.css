@@ -187,21 +187,15 @@ p {
   .name h1 {
     margin-left: 20%;
   }
-  .second_place img {
-    float: left;
-    margin-top: 0%;
-  }
-  .second_place p {
-    float: right;
-    margin-top: 0%;
-  }
-  .second_place_text {
-    float: right;
-  } 
+
 }
 
 .profile img {
   border-radius: 50%;
+}
+
+.name  h1{
+  margin-top: 30%;
 }
 
 img {
@@ -217,4 +211,34 @@ th,
 tr,
 td {
   border: 2px solid gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.places img {
+  width: 50%;
+  float: right;
+}
+.places {
+  width: 100%;
+}
+.places p {
+  margin-top: -10px;
+}
+
+.city{
+  width:100%;
+}
+
+.city img{
+  width: 50%;
+  float:left;
+  margin-right: 5%;
+}
+
+.city p {
+  margin-top: -5px;
 }

@@ -1,10 +1,16 @@
 @import "./simple_grid/simple-grid.min.css";
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
 
-  .image img{
-   float:left;
+
+@media screen and (max-width: 917px) {
+  .second_place img{
+    width: 50%;
+    float:left;
+    margin-right: 5%;
   }
+  
+  .second_place p {
+    margin-top: -10px;
+  }
+}
+
